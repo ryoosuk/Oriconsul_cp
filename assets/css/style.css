@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+.line {
+  display: block;
+  height: 1px;
+  width: 100%;
+}
+.line.wh {
+  background-color: white;
+}
+
+.bl {
+  background-color: #ECF2FB;
+  display: block;
+}
+
+.pc {
+  display: block;
+}
+
+.tab {
+  display: none;
+}
+
+.sp {
+  display: none;
+}
+
+.block {
+  display: block !important;
+}
+
+.tx {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  margin-right: 5.5px;
+  transition: all 0.1s;
+}
+
+.btn {
+  border-radius: 2px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btn a {
+  position: relative;
+  padding: 0 80px;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.fa-solid {
+  font-weight: 900;
+}
+
+.fa-up-right-from-square:before {
+  content: "\f35d";
+}
+
+body header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+body header .header-left {
+  align-items: center;
+  padding-left: 15px;
+}
+body header .header-left img {
+  width: 192px;
+  height: 42px;
+}
+body header .header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  padding-right: 80px;
+}
+body header .header-right .header-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 675px;
+  height: 100%;
+}
+body header .header-right .header-links p {
+  padding: 0 10px;
+}
+body header .header-right .header-links p span {
+  font-size: 14px;
+  line-height: 90px;
+}
+body header .header-right i {
+  margin-left: 4px;
+  font-size: 14px;
+}
+body header .header-right .btn {
+  height: 40px;
+  margin-right: 5px;
+  overflow: visible;
+}
+body header .header-right .btn a {
+  width: 126px;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 40px;
+  border: 1px solid #006AB6;
+  color: #006AB6;
+  background-color: #FFFFFF;
+  transition: all 0.2s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
